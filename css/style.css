@@ -1,0 +1,135 @@
+body{
+    margin: 1px;
+    padding: 0;
+    background-color: #7e7a78;
+}
+.filmCard{
+    padding: 15px;
+    width: 300px;
+    border: solid black 1px;
+    margin: 20px;
+    height: 400px;
+    background-color: #e9c06f;
+
+}
+.filmCard img{
+    height: 200px;
+}
+.singleFilm{
+    width: 1200px;
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    color: #7e7a78;
+
+}
+.flexColumn{
+    flex-direction: column;
+}
+.d-flex{
+    display: flex;
+}
+.styleee{
+    background-color: #e9c06f;
+    font-size: 25px;
+}
+.cCenter{
+    justify-content: center;
+ }
+.gallery{
+    width: 1200px;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.alignCenter{
+    text-align: center;
+}
+.singleFilm img{
+    height: 350px;
+    width: 250px;
+}
+.comments{
+    height: 200px;
+}
+.film img{
+    height: 350px;
+    width:280px;
+}
+.title{
+    width: 350px;
+    background-color: #3b3736;
+    font-family: 'Hind', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #eaefea;
+}
+.year{
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+}
+.rating{
+    font-family: 'Hind', sans-serif;
+    font-size: 25px;
+}
+.fa-star{
+    color: #f5970b;
+    margin-right: 15px;
+}
+.article{
+    padding: 20px;
+}
+.description{
+    font-size: 18px;
+    line-height: 1.7;
+    color: #eaefea;
+}
+.comment{
+    color: #bdc8bd;
+}
+.input{
+    height: 20px;
+    width: 300px;
+}
+.btn{
+    padding: 4px;
+    background-color: #f5970b;
+    color: #eaefea;
+
+}
+.backBtn{
+    background-color: #3b3736;
+    color: #eaefea;
+    font-size: 25px;
+    padding: 8px;
+}
+.btnAdd{
+    padding: 10px;
+    margin: 20px;
+    background-color: #e9c06f;
+    color: #10150b;
+    border-radius: 5px;
+}
+.modal{
+    position: absolute;
+    height: 110px;
+    width: 350px;
+    background-color: #38866e;
+    border: solid black 3px;
+    border-radius: 4px;
+    top: 180px;
+    left: 420px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    display: none;
+}
+.btnFilmAdd{
+    background-color: #e9c06f;
+}
